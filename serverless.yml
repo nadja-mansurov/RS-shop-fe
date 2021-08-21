@@ -29,10 +29,10 @@ provider:
 
 custom:
   client:
-    bucketName: my-second-rs-app-n
+    bucketName: rs-shop-fe-b
     distributionFolder: build
     indexDocument: index.html
-    managrResources: false
+    #manageResources: false
   s3LocalPath: ${self:custom.client.distributionFolder}/
   s3BucketName: ${self:custom.client.bucketName}
 
