@@ -23,13 +23,13 @@ frameworkVersion: '2'
 provider:
   name: aws
   runtime: nodejs12.x
-  profile: personalAccount
+  profile: rsSchoolAccount
   stage: dev
   region: eu-central-1
 
 custom:
   client:
-    bucketName: rs-shop-fe-b
+    bucketName: rs-shop-fe-bucket
     distributionFolder: build
     indexDocument: index.html
     #manageResources: false
